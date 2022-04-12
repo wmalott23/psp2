@@ -61,3 +61,5 @@
 // }
 
 // let runPrimes = findAllPrimes()
+
+// First try bb!
