@@ -62,4 +62,17 @@
 
 // let runPrimes = findAllPrimes()
 
-// First try bb!
+
+function fibonacci(){
+    let number = Number(prompt("Type in the number you would like to start at!"))
+    let oldNum = 0
+    let oldOldNum = 0
+    for(let i=0; i<10; i++){
+        console.log(number);
+        oldOldNum = oldNum;
+        oldNum = number;
+        number = oldNum + oldOldNum;
+    }
+}
+
+let fib = fibonacci()
